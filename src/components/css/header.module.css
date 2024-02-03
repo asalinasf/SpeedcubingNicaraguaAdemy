@@ -1,5 +1,5 @@
-.header{
-    background-color: rgb(17, 17, 17);
+.header {
+    background-color: #24262b;
     width: 100%;
     height: 150px;
     display: flex;
@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-.nav{
+.nav {
     display: flex;
     width: 100%;
     align-items: center;
@@ -18,26 +18,70 @@
     overflow: hidden;
 }
 
-.containerLogo{
+.containerLogo {
     display: flex;
     height: 150px;
 }
 
-.h1{
+.h1 {
     color: white;
     font-size: 30px;
     margin-right: 20px;
 }
 
-.ul .li{
-    display: inline-block;
+
+.ul{
+    display: flex;
+    gap: 20px;
+}
+.li {
     justify-content: center;
     align-items: center;
-    padding: 0px 20px;
+    padding: 7px 20px;
+    list-style: none;
+    transition: 0.6s ease-in-out;
+}
+.li{
+    background-color: #e91e63;
 }
 
-.a{
+.li:hover{
+    background-color: #b32a58;
+    transform: translateY(-10px);
+}
+
+
+.a {
     color: white;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+
+@media(max-width: 720px){
+    .header{
+        height: 590px;
+    }
+
+    .nav{
+        flex-direction: column;
+    }
+
+    .containerLogo{
+        width: 300px;
+        height: 300px;
+        margin-bottom: 50px;
+    }
+    .logo{
+        width: 100%;
+        height: 100%;
+    }
+
+    .ul{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
