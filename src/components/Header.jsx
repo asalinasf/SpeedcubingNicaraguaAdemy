@@ -20,13 +20,13 @@ const Header = () => {
               </a>
             </li>
             <li className={styles.li}>
-              <a href="/" className={styles.a}>
-                Algoritmos
+              <a href="/blog" className={styles.a}>
+                Blog
               </a>
             </li>
             <li className={styles.li}>
-              <a href="/" className={styles.a}>
-                Contacto
+              <a href="/aprende" className={styles.a}>
+                Aprende
               </a>
             </li>
             <li className={styles.li}>

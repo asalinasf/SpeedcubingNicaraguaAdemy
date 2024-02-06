@@ -3,8 +3,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    background-image: linear-gradient(to left, rgb(17, 17, 17) 30%, rgba(233,30,99, 0.7));
+    padding: 150px;
 }
 
 .containerText{
@@ -45,8 +45,7 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin-top: 80px;
-        margin-bottom: 80px
+        padding: 50px 30px;
     }
     
     .title{

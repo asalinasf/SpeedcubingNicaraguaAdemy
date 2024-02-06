@@ -2,9 +2,9 @@ import SectionLanding from "../components/SectionLanding";
 
 const LandingPage = () => {
   return (
-    <main>
+    <div>
       <SectionLanding />
-    </main>
+    </div>
   );
 };
 
