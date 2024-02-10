@@ -41,16 +41,32 @@ const Footer = () => {
             <h4 className={styles.h4}>Siguenos</h4>
             <ul className={styles.ul}>
               <div className={styles.socialLinks}>
-                <a href="#" className={styles.a}>
+                <a
+                  href="https://www.instagram.com/speedcubingnic/"
+                  target="_blank"
+                  className={styles.a}
+                >
                   <CiInstagram />
                 </a>
-                <a href="#" className={styles.a}>
+                <a
+                  href="https://www.tiktok.com/@speedcubingnic?_t=8jj3kBNdRNm&_r=1"
+                  target="_blank"
+                  className={styles.a}
+                >
                   <FaTiktok />
                 </a>
-                <a href="#" className={styles.a}>
+                <a
+                  href="https://www.facebook.com/profile.php?id=61556253633782&mibextid=LQQJ4d"
+                  target="_blank"
+                  className={styles.a}
+                >
                   <CiFacebook />
                 </a>
-                <a href="#" className={styles.a}>
+                <a
+                  href="https://www.youtube.com/@speedcubingnic"
+                  target="_blank"
+                  className={styles.a}
+                >
                   <CiYoutube />
                 </a>
               </div>
