@@ -1,9 +1,8 @@
-import { blog } from "../db/blog";
 import ArticuloBlog from "./ArticuloBlog";
 import styles from "./css/gridBlog.module.css";
 import { useState } from "react";
 
-const GridBlog = () => {
+const GridBlog = ({ blog }) => {
   const [articulos, useArticulos] = useState([...blog]);
 
   return (

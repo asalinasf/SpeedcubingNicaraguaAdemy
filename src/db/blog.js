@@ -1,5 +1,3 @@
-import uuid from "react-uuid";
-
 // Imagenes
 import img1 from "../assets/blog/blog1.jpeg";
 
