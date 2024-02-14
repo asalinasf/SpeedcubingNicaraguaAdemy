@@ -11,7 +11,7 @@ const Footer = () => {
             <h4 className={styles.h4}>Acerca de</h4>
             <ul className={styles.ul}>
               <li className={styles.li}>
-                <a href="" className={styles.a}>
+                <a href="/nosotros" className={styles.a}>
                   Nosotros
                 </a>
               </li>
