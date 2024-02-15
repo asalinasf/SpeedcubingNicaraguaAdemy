@@ -6,18 +6,105 @@
     text-align: center;
 }
 
+.containerPersona{
+    background-color: #24262b;
+    width: 500px;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s ease-in-out;
+}
+
+.containerPersona:hover{
+    box-shadow: 0 10px 15px rgba(34,153,248, 0.15);
+    transform: scale(1.02);
+}
+
+.containerImg{
+    margin-right: 10px;
+}
+
 .main{
+    display: flex;
     text-align: center;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .titulo{
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    width: 100%;
+    gap: 50px;
+}
+
+.containerIcons{
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.react{
+    color: #66dbfb;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.css {
+    color: #2299f8;
+    font-size: 50px;
+}
+
+
+.javascript {
+    color: #f0dc4e;
+    font-size: 50px;
+}
+
+.tikTok {
+    margin-top: 10px;
+    font-size: 50px;
+}
+.ig{
+    font-size: 50px;
+    color: #fd9f08;
+}
+
+
+.face {
+    color: #226ee7;
+    font-size: 50px;
+}
+.book1 {
+    margin-top: 10px;
+    font-size: 50px;
+}
+.book{
+    font-size: 50px;
+}
+
+@media(max-width: 768px){
+    .containerPersona {
+        width: 300px;
+        flex-direction: column;
+        padding: 50px;
+    }
+    .img{
+        width: 250px;
+        padding-bottom: 10px;
+    }
+    .p{
+        margin-bottom: 5px;
+    }
 }
