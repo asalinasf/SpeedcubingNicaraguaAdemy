@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+
+.title{
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-transform: capitalize;
+}
+
+.p{
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 150px;
+}

@@ -94,6 +94,19 @@
     font-size: 50px;
 }
 
+.ph{
+    font-size: 50px;
+    margin-top: 10px;
+    color: #2a6cb8;
+}
+
+.edit{
+    font-size: 50px;
+}
+.page{
+    font-size: 50px;
+}
+
 @media(max-width: 768px){
     .containerPersona {
         width: 300px;

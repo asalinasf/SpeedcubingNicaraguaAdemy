@@ -6,6 +6,8 @@ import {
   FaFacebook,
 } from "react-icons/fa";
 import { FaBook, FaBookOpenReader, FaPencil } from "react-icons/fa6";
+import { SiAdobephotoshop } from "react-icons/si";
+import { FaEdit, FaPager } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import img from "../assets/logo.png";
 
@@ -68,14 +70,28 @@ const Nosotros = () => {
               <img src={img} alt="" width={250} className={styles.img} />
               <h2 className={styles.subtitle}>Walter Campos</h2>
             </div>
-            <p className={styles.p}>Diseñador Grafico, y redes sociales</p>
+            <div className={styles.containerText}>
+              <p className={styles.p}>Diseñador grafico y marketing digital</p>
+              <div className={styles.containerIcons}>
+                <SiAdobephotoshop className={styles.ph} />
+                <FaEdit className={styles.edit} />
+                <FaPager className={styles.page} />
+              </div>
+            </div>
           </div>
           <div className={styles.containerPersona}>
             <div className={styles.containerImg}>
               <img src={img} alt="" width={250} className={styles.img} />
               <h2 className={styles.subtitle}>Eliezer Urbina </h2>
             </div>
-            <p className={styles.p}>Diseñador Grafico y redes sociales</p>
+            <div className={styles.containerText}>
+              <p className={styles.p}>Diseñador grafico y marketing digital</p>
+              <div className={styles.containerIcons}>
+                <SiAdobephotoshop className={styles.ph} />
+                <FaEdit className={styles.edit} />
+                <FaPager className={styles.page} />
+              </div>
+            </div>
           </div>
         </div>
       </main>

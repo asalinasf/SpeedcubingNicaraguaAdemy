@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.containerSection{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.containerImg{
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.img{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 300px;
+}
+
+.title {
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+
+.p {
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.li{
+    padding-bottom: 10px;
+}
+
+.title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 150px;
+}
