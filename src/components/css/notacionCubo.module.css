@@ -46,3 +46,47 @@
     box-sizing: border-box;
     width: 150px;
 }
+
+.btn{
+    background-color: #363636;
+    display: flex;
+    width: 500px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.p2{
+    text-align: center;
+}
+
+
+.containerImages{
+     display: flex;
+     gap: 10px;
+     width: 100%;
+}
+
+.containerImg2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pbtn{
+    padding: 20px 100px;
+    margin: 10px 0;
+    background-color: #363636;
+}
+
+@media (max-width: 700px) {
+    .containerImages{
+        flex-direction: column;
+    }
+    .img{
+        margin-top: 10px;
+    }
+}
